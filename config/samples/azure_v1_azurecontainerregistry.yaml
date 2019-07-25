@@ -1,0 +1,10 @@
+apiVersion: azure.microsoft.com/v1
+kind: AzureContainerRegistry
+metadata:
+  name: acrsamplejananiv424
+spec:
+  # Add fields here
+  resourcegroup: Janani-testRG
+  location: southcentralus
+  sku: Standard
+  adminuserenabled: false
