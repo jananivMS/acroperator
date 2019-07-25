@@ -29,6 +29,7 @@ The client ID and client secret is of the service principal in Azure that you ha
 
 6. Once this is done, you can check that it was enabled by typing the below:
 `
+
 kubectl cluster-info
 
 Kubernetes master is running at https://127.0.0.1:6443
