@@ -10,9 +10,13 @@ Azure operator POC to create delete Azure Container Registry from a K8s cluster
 
 2. Create a setenv.sh file in that folder with the below information
 `
+
 export AZURE_CLIENT_ID=<Client ID of your service principal>
+
 export AZURE_CLIENT_SECRET=<Client Secret of your service principal>
+
 export AZURE_TENANT_ID=<Azure tenant ID where you want to deploy the ACR>
+
 export AZURE_SUBSCRIPTION_ID=<Azure Subscription ID where you want to deploy the ACR>`
 
 The client ID and client secret is of the service principal in Azure that you have created and have given write access to your resource group where you want to create the ACR. You will need to do this in the Azure portal before running this.
