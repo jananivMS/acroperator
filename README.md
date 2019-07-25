@@ -28,7 +28,9 @@ The client ID and client secret is of the service principal in Azure that you ha
 5. Enable Kubernetes on Docker Desktop: Click on the Docker whale icon on the taskbar --> Preferences --> Kubernetes tab --> Enable Kubernetes
 
 6. Once this is done, you can check that it was enabled by typing the below:
-`kubectl cluster-info
+`
+kubectl cluster-info
+
 Kubernetes master is running at https://127.0.0.1:6443
 KubeDNS is running at https://127.0.0.1:6443/api/v1/namespaces/kube-system/services/kube-dns:dns/proxy`
 
